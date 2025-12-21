@@ -5,6 +5,7 @@
 
 /* ===== PAGE BACKGROUND ===== */
 body {
+  background: black !important;
   font-family: "Segoe UI", Tahoma, Arial, sans-serif;
   background: linear-gradient(135deg, #e0f2fe, #f8fafc);
   color: #1f2937;
