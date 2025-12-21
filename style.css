@@ -1,5 +1,4 @@
 body {
-  background-color: red !important;
   font-family: "Segoe UI", Tahoma, Arial, sans-serif;
   background-color: #f8fafc;
   color: #1f2937;
@@ -45,3 +44,4 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
