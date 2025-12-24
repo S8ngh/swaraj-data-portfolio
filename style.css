@@ -36,11 +36,9 @@ body {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  object-fit: cover;
-  object-position: top center; /* 🔥 THIS IS THE FIX */
-  border: 6px solid #ffffff;
-  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
-  background-color: #fff;
+  object-fit: contain;   /* 🔥 IMPORTANT */
+  background-color: #e5e7eb;
+  padding: 10px;
 }
 
 .hero-center h1 {
