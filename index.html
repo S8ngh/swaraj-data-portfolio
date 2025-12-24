@@ -5,6 +5,16 @@
   <title>Swaraj Singh | Data Analyst</title>
   <link rel="stylesheet" href="style.css?version=1000">
 </head>
+<script>
+  const toggle = document.getElementById("darkToggle");
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    toggle.textContent = document.body.classList.contains("dark")
+      ? "☀️ Light Mode"
+      : "🌙 Dark Mode";
+  });
+</script>
 
 <body>
 
