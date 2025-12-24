@@ -3,22 +3,14 @@
 <head>
   <meta charset="UTF-8">
   <title>Swaraj Singh | Data Analyst</title>
-  <link rel="stylesheet" href="style.css?version=1000">
+  <link rel="stylesheet" href="style.css?version=2000">
 </head>
-<script>
-  const toggle = document.getElementById("darkToggle");
-
-  toggle.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
-    toggle.textContent = document.body.classList.contains("dark")
-      ? "☀️ Light Mode"
-      : "🌙 Dark Mode";
-  });
-</script>
 
 <body>
 
+<!-- ===== DARK MODE TOGGLE ===== -->
 <button id="darkToggle" class="dark-toggle">🌙 Dark Mode</button>
+
 <!-- ===== HERO SECTION ===== -->
 <section class="hero">
 
@@ -28,10 +20,10 @@
   </div>
 
   <div class="hero-center">
-  <img src="IMG_20251210_104803.jpg" alt="Swaraj Singh" class="profile-pic">
-  <h1>Swaraj Singh</h1>
-  <p>Aspiring Data Analyst | Excel | Power BI | SQL</p>
-</div>
+    <img src="IMG_20251210_104803.jpg" alt="Swaraj Singh" class="profile-pic">
+    <h1>Swaraj Singh</h1>
+    <p>Aspiring Data Analyst | Excel | Power BI | SQL</p>
+  </div>
 
   <div class="hero-role">
     <h3>Insights Engineer</h3>
@@ -40,7 +32,6 @@
 
 </section>
 
-<!-- ===== ABOUT ===== -->
 <h2>About Me</h2>
 <p>
 ECE undergraduate transitioning into Data Analytics.  
@@ -66,43 +57,32 @@ I work on data cleaning, analysis, and dashboard creation.
   </div>
 </div>
 
-<!-- ===== SERVICES ===== -->
-<h2>Services</h2>
-<ul>
-  <li>Excel Data Cleaning & Formatting</li>
-  <li>Data Analysis using Excel & Power BI</li>
-  <li>Pivot Tables & Basic Dashboards</li>
-  <li>SQL Data Extraction (Basic)</li>
-</ul>
-
-<!-- ===== FREELANCING PITCH ===== -->
-<h2>Freelancing Pitch</h2>
-<p>
-I help clean, organize, and analyze Excel data to make it analysis-ready.
-I deliver accurate results, clear insights, and quick turnaround.
-</p>
-
-<!-- ===== FEATURED PROJECT ===== -->
 <h2>Featured Project</h2>
 
 <div class="project-card">
   <h3>Yulu Bike Sharing Demand Prediction</h3>
-  <p>
-    Analyzed historical ride data to predict demand patterns based on
-    time, weather, and location.
-  </p>
-  <p><b>Tools:</b> Python, Pandas, Matplotlib, Excel</p>
-  <a href="#">View Project</a>
+  <p>Analyzed ride data to predict demand patterns.</p>
+  <p><b>Tools:</b> Python, Pandas, Matplotlib</p>
 </div>
 
-<!-- ===== CONTACT ===== -->
 <h2>Contact</h2>
 
 <div class="contact-box">
-  <p>📧 <a href="mailto:swarajsingh****@gmail.com">swarajsingh****@gmail.com</a></p>
-  <p>📞 <a href="tel:+917846909708">+91 7846909708</a></p>
-  <p>🔗 <a href="https://www.linkedin.com/in/swaraj-singh-b98050281/" target="_blank">LinkedIn Profile</a></p>
+  <p>📧 swarajsingh****@gmail.com</p>
+  <p>📞 +91 7846909708</p>
 </div>
+
+<!-- ===== JS MUST BE AT BOTTOM ===== -->
+<script>
+  const toggle = document.getElementById("darkToggle");
+
+  toggle.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+    toggle.textContent = document.body.classList.contains("dark")
+      ? "☀️ Light Mode"
+      : "🌙 Dark Mode";
+  });
+</script>
 
 </body>
 </html>
