@@ -116,3 +116,27 @@ h2:last-of-type {
   object-fit: cover;
   box-shadow: 0 20px 40px rgba(0,0,0,0.15);
 }
+/* ===== HERO ROLES ===== */
+.hero-roles {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 40px;
+}
+
+.role-card {
+  flex: 1;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+}
+
+.role-card h3 {
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.role-card p {
+  font-size: 15px;
+  color: #475569;
+}
