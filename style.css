@@ -85,4 +85,34 @@ h2:last-of-type {
 h2:last-of-type {
   margin-bottom: 10px;
 }
+/* ===== HERO SECTION ===== */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
 
+.hero-left, .hero-right {
+  flex: 1;
+}
+
+.hero h1 {
+  font-size: 32px;
+  color: #0f172a;
+}
+
+.hero p {
+  font-size: 16px;
+  color: #475569;
+}
+
+.hero-center img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+}
