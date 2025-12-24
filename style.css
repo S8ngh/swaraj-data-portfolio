@@ -96,13 +96,14 @@ li {
   font-weight: 600;
   text-decoration: none;
 }
-/* ===== PROFILE PHOTO ===== */
-.profile-pic {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
+/* ===== PROFILE PHOTO FIX ===== */
+.hero-center img {
+  width: 220px;
+  height: 220px;
   border-radius: 50%;
-  border: 4px solid #38bdf8;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-  margin-bottom: 15px;
+  object-fit: contain;        /* IMPORTANT: no crop */
+  object-position: center;    /* image center rahe */
+  background-color: #ffffff;  /* empty space white */
+  padding: 6px;               /* thoda gap */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
