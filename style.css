@@ -36,9 +36,12 @@ body {
   width: 220px;
   height: 220px;
   border-radius: 50%;
-  object-fit: contain;   /* 🔥 IMPORTANT */
-  background-color: #e5e7eb;
-  padding: 10px;
+
+  /* IMPORTANT FIX */
+  object-fit: contain;        /* image crop nahi hogi */
+  object-position: top center;/* head upar se safe rahega */
+
+  background-color: #e5e7eb;  /* empty space fill karega */
 }
 
 .hero-center h1 {
